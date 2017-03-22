@@ -22,7 +22,9 @@ public class SimpleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         response.getWriter().print("Hello World!");
-        response.getWriter().print("Hello CSVC Class!");
+        response.getWriter().print("<br>")
+        //response.getWriter().print("<I>")
+        response.getWriter().print("<I> Hello CSVC Class! </I>");
     }
 
 }
